@@ -43,7 +43,9 @@ class ViewController: UIViewController {
         enterNameField.hidden = true
         
         sendMailButton.setTitle("Sent", forState: UIControlState.Normal)
-//        sendMailButton.setTitleColor(color: UIColor?, forState: <#UIControlState#>)
+        sendMailButton.setTitleColor(UIColor.grayColor(), forState: UIControlState.Normal)
+        sendMailButton.setTitleShadowColor(UIColor.grayColor(), forState: UIControlState.Normal)
+        sendMailButton.backgroundColor = UIColor.clearColor()
         
     }
 
